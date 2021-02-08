@@ -1,1 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
 
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background-color: #ffe1e1;
+}
+
+header {
+	width: 100%;
+	background-color: #cd7777;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #FFF;
+	font-size: 2.3em;
+}
+
+em {
+	color: #232027;
+}
+
+.batura {
+	width: 40%;
+	margin: 40px auto;
+}
+
+div.argazkixak ul {
+	list-style-type: none;
+	margin-left: 35px;
+}
+
+div.argazkixak ul li, div.argazkixak li img {
+	-webkit-transition: all 0.1s ease-in-out;
+  	-moz-transition: all 0.1s ease-in-out;
+  	-o-transition: all 0.1s ease-in-out;
+  	transition: all 0.1s ease-in-out;
+}
+
+div.argazkixak ul li {
+	position: relative;
+	float: left;
+	width: 130px;
+	height: 130px;
+	margin: 5px;
+	padding: 5px;
+	z-index: 0;
+}
+
+div.argazkixak ul li:hover {
+	z-index: 5;
+}
+
+div.argazkixak ul li img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	width: 130px;
+	height: 130px;
+	background: #f0f0f0;
+}
+
+div.argazkixak ul li img:hover {
+	width: 200px;
+	height: 200px;
+	margin-top: -130px;
+	margin-left: -130px;
+	top: 65%;
+	left: 65%;
+}
+
+p.textua {
+	font-family: 'Consolas';
+	color: #000;
+	clear: both;
+	text-align: center;
+	line-height: 25px;
+	padding-top: 30px;
+}
+
+@media only screen and (min-width: 499px) and (max-width: 1212px) {
+	.batura {
+		width: 500px;
+	}}
+
+@media only screen and (max-width: 498px) {
+	.batura {
+		width: 300px;
+	}}
